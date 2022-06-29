@@ -1,4 +1,4 @@
-# Code of conduct for `alphagov`
+# Code of conduct for `ministryofjustice`
 
 Contributors to repositories hosted in `ministryofjustice` are expected to
 follow the Contributor Covenant Code of
