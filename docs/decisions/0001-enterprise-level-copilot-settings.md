@@ -9,7 +9,7 @@ Accepted
 ## Context
 
 In preperation for the rollout of GitHub CoPilot across MoJ, members from the github administration group paired together to set initial enteprise level settings.
-These defaults will then be inherited by each of the organisations within the MoJ Enterprise ([Ministry of Justice](https://github.com/ministryofjustice), [ministryofjustice-test](https://github.com/ministryofjustice-test), [MOJ Analytical Service](https://github.com/moj-analytical-services), [CICA](https://github.com/CriminalInjuriesCompensationAuthority)).
+These defaults will then be inherited by each of the organisations within the MoJ Enterprise ([Ministry of Justice](https://github.com/ministryofjustice), [ministryofjustice-test](https://github.com/ministryofjustice-test), [MoJ Analytical Services](https://github.com/moj-analytical-services), [CICA](https://github.com/CriminalInjuriesCompensationAuthority)).
 
 These were set on the Ministry of Justice (UK) Enterprise, at the CoPilot Policy level.
 
