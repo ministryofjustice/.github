@@ -9,7 +9,7 @@ Licences are currently available only to permanent civil servants in the enginee
 - Quality/Test Engineers
 - Technical Architects
 
-Contractor staff are **not eligible** at this time, though access may be extended in the future.
+Contractor staff (including 3rd party vendors) are **not eligible** at this time, though access may be extended in the future.
 
 ---
 
@@ -21,8 +21,8 @@ Agency leads are responsible for managing team membership, ensuring only eligibl
 
 Civil servants in the engineering profession should ask their team lead to add them to the appropriate team:
 
-- Criminal Injuries Compensation Authority (CICA) (to be created)
-- [Central Digital – Team to be created](https://github.com/orgs/ministryofjustice/teams/central-digital-copilot-users)
+- [Criminal Injuries Compensation Authority (CICA)](https://github.com/orgs/ministryofjustice/teams/cica-github-copilot-users)
+- [Central Digital](https://github.com/orgs/ministryofjustice/teams/central-digital-copilot-users)
 - [Office for the CTO (OCTO)](https://github.com/orgs/ministryofjustice/teams/octo-copilot-users)
 
 HMPPS, OPG, and LAA users must be added via pull requests to their respective team repositories:
