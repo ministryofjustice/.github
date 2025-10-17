@@ -33,25 +33,28 @@ HMPPS, OPG, and LAA users must be added via pull requests to their respective te
 
 ---
 
-## Supported IDEs and Plugins for CoPilot
+## Supported IDEs and Plugins for Copilot
 
 **JetBrains IDEs**  
 Plugin: [GitHub Copilot for JetBrains](https://plugins.jetbrains.com/plugin/17718-github-copilot)  
-Documentation: [Getting started](https://docs.github.com/en/copilot/getting-started-with-github-copilot/github-copilot-in-jetbrains)
+Documentation: [Getting started](https://docs.github.com/en/copilot/get-started/quickstart?tool=jetbrains)
 
 **Visual Studio Code**  
 Plugin: [GitHub Copilot for VS Code](https://marketplace.visualstudio.com/items?itemName=GitHub.copilot)  
-Documentation: [Getting started](https://docs.github.com/en/copilot/getting-started-with-github-copilot/github-copilot-in-visual-studio-code)
+Documentation: [Getting started](https://docs.github.com/en/copilot/get-started/quickstart?tool=vscode)
 
 **Vim/Neovim**  
 Plugin: [GitHub Copilot for Vim](https://github.com/github/copilot.vim)  
-Documentation: [Getting started](https://docs.github.com/en/copilot/getting-started-with-github-copilot/github-copilot-in-neovim)
+Documentation: [Getting started](https://docs.github.com/en/copilot/how-tos/get-code-suggestions/get-ide-code-suggestions?tool=vimneovim)
+
+**GitHub Copilot CLI (Public Preview)**
+Documentation: [Getting started](https://github.com/github/copilot-cli)
 
 ---
 
 ## What is included in the Licence
 
-GitHub CoPilot users will be assigned [Copilot Enterprise](https://docs.github.com/en/copilot/get-started/plans#comparing-copilot-plans) seats. This plan was chosen to allow users greater access to premium models, such as those created by Anthropic. Each user has 1000 requests to a premium model per billing month. See the guidance [here](https://docs.github.com/en/copilot/how-tos/use-ai-models/configure-access-to-ai-models) on how to select different models within your IDE.
+GitHub Copilot users will be assigned [Copilot Enterprise](https://docs.github.com/en/copilot/get-started/plans#comparing-copilot-plans) seats. This plan was chosen to allow users greater access to premium models, such as those created by Anthropic. Each user has 1000 requests to a premium model per billing month. See the guidance [here](https://docs.github.com/en/copilot/how-tos/use-ai-models/configure-access-to-ai-models) on how to select different models within your IDE.
 
 ---
 
@@ -72,7 +75,7 @@ Only AI tools under an MoJ enterprise licence are permitted.
 
 **Approved tools include:**
 - GitHub Copilot for Enterprise
-- Copilot 365
+- Microsoft Copilot 365
 - ChatGPT Pilot Programme (by request)
 
 Personal or free AI tools are **not allowed**.
