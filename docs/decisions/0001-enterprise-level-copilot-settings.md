@@ -1,6 +1,6 @@
 # 1. Initial configuration of enterprise level copilot settings
 
-Date: 2022-09-12
+Date: 2025-09-12
 
 ## Status
 
