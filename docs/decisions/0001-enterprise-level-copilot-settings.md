@@ -15,6 +15,17 @@ These were set on the Ministry of Justice (UK) Enterprise, at the CoPilot Policy
 
 We chose a cautious approach, limiting access to less familiar options upfront rather than granting full access initially and having to revoke it later. Please note, this is not a definitive set of rules and specific policies will likely change over time.
 
+
+## Key Roles and Responsibilities
+
+| Role                        | Description                                                                                                                                         | Owner/Team                        |
+|-----------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------|
+| Project Responsible Owner   | Accountable for the system's proper development, compliance, and performance.                                                                       | Rosie Brigham                     |
+| Technical Lead              | Responsible for procurement evaluation, integration, configuration, and ongoing technical oversight.                                                 | Rosie Brigham (interim), then Developer Experience Team |
+| Risk and Compliance Officer | Conducts risk and impact assessments, determines appropriate levels of human oversight, and ensures adherence to this framework for all AI systems. | Rosie Brigham                     |
+
+---
+
 ## Decisions
 
 ## Policy Decisions
