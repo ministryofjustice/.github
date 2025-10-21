@@ -4,13 +4,13 @@ Date: 2025-10-21
 
 ## Status
 
-Accepted
+Proposed
 
 Amends [ADR-0001](0001-enterprise-level-copilot-settings.md)
 
 ## Context
 
-In ADR-0001, MCP (Model Context Protocol) servers in Copilot were initially disabled as part of a cautious rollout approach for GitHub Copilot across MoJ.
+In [ADR-0001](0001-enterprise-level-copilot-settings.md), MCP (Model Context Protocol) servers in Copilot were initially disabled as part of a cautious rollout approach for GitHub Copilot across MoJ.
 
 Since the initial configuration:
 

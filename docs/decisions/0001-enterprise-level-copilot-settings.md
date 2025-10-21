@@ -97,6 +97,9 @@ Enabled - When enabled, Copilot coding agent will be blocked from accessing all 
 
 ### MCP servers in Copilot
 
+> [!NOTE]
+> Amended by [ADR-0002](0002-enable-mcp-servers-in-copilot.md)
+
 Disabled - initially
 
 ### MCP Registry URL (optional)
