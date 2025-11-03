@@ -23,11 +23,12 @@ Civil servants in the engineering profession should ask their team lead to add t
 
 - [Criminal Injuries Compensation Authority (CICA)](https://github.com/orgs/ministryofjustice/teams/cica-github-copilot-users)
 - [Central Digital](https://github.com/orgs/ministryofjustice/teams/central-digital-copilot-users)
-
+- [End User Compute Services (EUCS)](https://github.com/orgs/ministryofjustice/teams/technology-services-copilot-users)
+- 
 HMPPS, OPG, and LAA users must be added via pull requests to their respective team repositories:
 
 - [HMPPS](https://github.com/ministryofjustice/hmpps-github-teams)
-- LAA (to be created)
+- [LAA](https://github.com/ministryofjustice/laa-github-teams)
 - [OPG](https://github.com/ministryofjustice/opg-org-infra/tree/main/access-management)
 - [Office for the CTO (OCTO)](https://github.com/ministryofjustice/octo-access)
 
