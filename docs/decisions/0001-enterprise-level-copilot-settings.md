@@ -48,7 +48,7 @@ No policy set - this is under review
 
 ### Copilot in the CLI
 
-Disabled - there could be a risk that internal tooling, propriatory scripts or environment secrets could be inadvertantly shared.
+Enabled
 
 ### Copilot in GitHub Desktop
 
@@ -96,7 +96,7 @@ Enabled - When enabled, Copilot coding agent will be blocked from accessing all 
 
 ### MCP servers in Copilot
 
-Disabled - initially
+Enabled
 
 ### MCP Registry URL (optional)
 
@@ -109,3 +109,7 @@ Blocked - initially
 ### Copilot Usage Metrics Dashboard
 
 Enabled - to facilitate assessment of Copilot usage across the enterprise
+
+### Copilot Spark
+
+Disabled
