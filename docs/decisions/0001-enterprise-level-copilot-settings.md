@@ -113,3 +113,11 @@ Enabled - to facilitate assessment of Copilot usage across the enterprise
 ### Copilot Spark
 
 Disabled
+
+## Amendments
+
+### 13/11/2025
+
+- Enable GitHub Copilot CLI - Allows similar experience to GitHub Copilot via Visual Studio Code, but is editor agnostic
+- Enable MCP servers - MCP enhances agent mode capabilities, see https://github.com/ministryofjustice/modernisation-platform-environments/pull/13738 for experimental usage
+- Disable Copilot Spark - Provides a similar capability to Copilot Agents which are disabled
