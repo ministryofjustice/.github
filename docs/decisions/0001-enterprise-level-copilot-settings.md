@@ -116,7 +116,7 @@ Disabled
 
 ## Amendments
 
-### 13/11/2025
+### 13/11/2025 ([source](https://github.com/ministryofjustice/.github/pull/21))
 
 - Enable GitHub Copilot CLI - Allows similar experience to GitHub Copilot via Visual Studio Code, but is editor agnostic
 - Enable MCP servers - MCP enhances agent mode capabilities, see https://github.com/ministryofjustice/modernisation-platform-environments/pull/13738 for experimental usage
