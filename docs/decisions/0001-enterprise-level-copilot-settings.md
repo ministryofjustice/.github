@@ -43,7 +43,7 @@ No pattern currently set
 | Anthropic Claude Sonnet 4.5         | No policy selected       | Enabled                |
 | Anthropic Claude Haiku 4.5          | No policy selected       | Enabled                |
 | Anthropic Claude Opus 4.1           | No policy selected       | Disabled by Enterprise |
-| Anthropic Claude Opus 4.5 (Preview) | No policy selected       | Disabled by Enterprise |
+| Anthropic Claude Opus 4.5 (Preview) | Let organisations decide | Enabled                |
 | Google Gemini 2.5 Pro               | No policy selected       | Enabled                |
 | Google Gemini 3 Pro (Preview)       | Let organisations decide | Enabled                |
 | OpenAI GPT-5                        | No policy selected       | Enabled                |
