@@ -136,6 +136,6 @@ Disabled
 - Enable MCP servers - MCP enhances agent mode capabilities, see https://github.com/ministryofjustice/modernisation-platform-environments/pull/13738 for experimental usage
 - Disable Copilot Spark - Provides a similar capability to Copilot Agents which are disabled
 
-### 25/11/2025
+### 25/11/2025 ([source](https://github.com/ministryofjustice/.github/pull/23))
 
 - Document enabled models at enterprise and organisation level
