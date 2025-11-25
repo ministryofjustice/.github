@@ -139,3 +139,7 @@ Disabled
 ### 25/11/2025 ([source](https://github.com/ministryofjustice/.github/pull/23))
 
 - Document enabled models at enterprise and organisation level
+
+### 25/11/2025 ([source](https://github.com/ministryofjustice/.github/pull/24))
+
+- Enable Claude Opus 4.5
