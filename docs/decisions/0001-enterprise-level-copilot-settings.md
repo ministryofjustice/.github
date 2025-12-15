@@ -39,22 +39,22 @@ No pattern currently set
 
 | Model                               | Enterprise Setting       | Organisation Setting (ministryofjustice) |
 | ----------------------------------- | ------------------------ | ---------------------------------------- |
-| Anthropic Claude Sonnet 4           | No policy selected       | Disabled by Enterprise                   |
-| Anthropic Claude Sonnet 4.5         | No policy selected       | Enabled                                  |
-| Anthropic Claude Haiku 4.5          | No policy selected       | Enabled                                  |
-| Anthropic Claude Opus 4.1           | No policy selected       | Disabled by Enterprise                   |
+| Anthropic Claude Sonnet 4           | Disabled everywhere      | Disabled by Enterprise                   |
+| Anthropic Claude Sonnet 4.5         | Let organisations decide | Enabled                                  |
+| Anthropic Claude Haiku 4.5          | Let organisations decide | Enabled                                  |
+| Anthropic Claude Opus 4.1           | Disabled everywhere      | Disabled by Enterprise                   |
 | Anthropic Claude Opus 4.5 (Preview) | Let organisations decide | Enabled                                  |
-| Google Gemini 2.5 Pro               | No policy selected       | Enabled                                  |
+| Google Gemini 2.5 Pro               | Let organisations decide | Enabled                                  |
 | Google Gemini 3 Pro (Preview)       | Let organisations decide | Enabled                                  |
-| OpenAI GPT-5                        | No policy selected       | Enabled                                  |
-| OpenAI GPT-5-Codex (Preview)        | No policy selected       | Enabled                                  |
-| OpenAI GPT-5 mini                   | No policy selected       | Disabled by Enterprise                   |
-| OpenAI GPT-5.1 (Preview)            | No policy selected       | Disabled by Enterprise                   |
+| OpenAI GPT-5                        | Let organisations decide | Enabled                                  |
+| OpenAI GPT-5-Codex (Preview)        | Let organisations decide | Enabled                                  |
+| OpenAI GPT-5 mini                   | Let organisations decide | Enabled                                  |
+| OpenAI GPT-5.1 (Preview)            | Let organisations decide | Enabled                                  |
 | OpenAI GPT-5.1-Codex (Preview)      | Let organisations decide | Enabled                                  |
-| OpenAI GPT-5.1-Codex-Mini (Preview) | No policy selected       | Disabled by Enterprise                   |
-| OpenAI GPT-5.1-Codex-Max (Preview)  | No policy selected       | Disabled by Enterprise                   |
-| OpenAI GPT-5.2 (Preview)            | No policy selected       | Disabled by Enterprise                   |
-| xAI Grok Code Fast 1                | No policy selected       | Disabled by Enterprise                   |
+| OpenAI GPT-5.1-Codex-Mini (Preview) | Let organisations decide | Enabled                                  |
+| OpenAI GPT-5.1-Codex-Max (Preview)  | Let organisations decide | Enabled                                  |
+| OpenAI GPT-5.2 (Preview)            | Let organisations decide | Enabled                                  |
+| xAI Grok Code Fast 1                | Disabled everywhere      | Disabled by Enterprise                   |
 
 ### Feature settings
 
