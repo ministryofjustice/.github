@@ -145,3 +145,12 @@ Disabled
 ### 25/11/2025 ([source](https://github.com/ministryofjustice/.github/pull/24))
 
 - Enable Claude Opus 4.5
+
+### 15/12/2025 ([source](https://github.com/ministryofjustice/.github/pull/26))
+
+- Adds new OpenAI models
+  - OpenAI GPT-5.1-Codex-Max
+  - OpenAI GPT-5.2
+- Enables all available OpenAI models
+- Changes Enterprise setting to "Let organisations decide" for enabled models
+- Changes Enterprise setting to "Disabled everywhere" for disabled models
