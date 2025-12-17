@@ -155,3 +155,8 @@ Disabled
 - Enables all available OpenAI models
 - Changes Enterprise setting to "Let organisations decide" for enabled models
 - Changes Enterprise setting to "Disabled everywhere" for disabled models
+
+### 17/12/2025 ([source](https://github.com/ministryofjustice/.github/pull/27))
+
+- Enables Google Gemini 3 Flash
+- Removes "Preview" status of several OpenAI models
