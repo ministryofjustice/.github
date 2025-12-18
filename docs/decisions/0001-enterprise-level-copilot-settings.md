@@ -46,14 +46,15 @@ No pattern currently set
 | Anthropic Claude Opus 4.5 (Preview) | Let organisations decide | Enabled                                  |
 | Google Gemini 2.5 Pro               | Let organisations decide | Enabled                                  |
 | Google Gemini 3 Pro (Preview)       | Let organisations decide | Enabled                                  |
+| Google Gemini 3 Flash (Preview)     | Let organisations decide | Enabled                                  |
 | OpenAI GPT-5                        | Let organisations decide | Enabled                                  |
 | OpenAI GPT-5-Codex (Preview)        | Let organisations decide | Enabled                                  |
 | OpenAI GPT-5 mini                   | Let organisations decide | Enabled                                  |
-| OpenAI GPT-5.1 (Preview)            | Let organisations decide | Enabled                                  |
-| OpenAI GPT-5.1-Codex (Preview)      | Let organisations decide | Enabled                                  |
+| OpenAI GPT-5.1                      | Let organisations decide | Enabled                                  |
+| OpenAI GPT-5.1-Codex                | Let organisations decide | Enabled                                  |
 | OpenAI GPT-5.1-Codex-Mini (Preview) | Let organisations decide | Enabled                                  |
-| OpenAI GPT-5.1-Codex-Max (Preview)  | Let organisations decide | Enabled                                  |
-| OpenAI GPT-5.2 (Preview)            | Let organisations decide | Enabled                                  |
+| OpenAI GPT-5.1-Codex-Max            | Let organisations decide | Enabled                                  |
+| OpenAI GPT-5.2                      | Let organisations decide | Enabled                                  |
 | xAI Grok Code Fast 1                | Disabled everywhere      | Disabled by Enterprise                   |
 
 ### Feature settings
@@ -154,3 +155,8 @@ Disabled
 - Enables all available OpenAI models
 - Changes Enterprise setting to "Let organisations decide" for enabled models
 - Changes Enterprise setting to "Disabled everywhere" for disabled models
+
+### 17/12/2025 ([source](https://github.com/ministryofjustice/.github/pull/27))
+
+- Enables Google Gemini 3 Flash
+- Removes "Preview" status of several OpenAI models
