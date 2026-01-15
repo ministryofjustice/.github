@@ -4,8 +4,10 @@
 
 Licences are currently available only to permanent civil servants in the engineering profession, including:
 
+- Data Analysts
 - Developers
 - DevOps Engineers
+- Interaction Designers
 - Quality/Test Engineers
 - Technical Architects
 
@@ -76,8 +78,8 @@ Only AI tools under an MoJ enterprise licence are permitted.
 
 **Approved tools include:**
 - GitHub Copilot for Enterprise
-- Microsoft Copilot 365
-- ChatGPT Pilot Programme (by request)
+- Microsoft 365 Copilot
+- OpenAI ChatGPT Pilot Programme (by request)
 
 Personal or free AI tools are **not allowed**.
 
