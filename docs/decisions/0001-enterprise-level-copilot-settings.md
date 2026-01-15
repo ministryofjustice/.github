@@ -55,6 +55,7 @@ No pattern currently set
 | OpenAI GPT-5.1-Codex-Mini (Preview) | Let organisations decide | Enabled                                  |
 | OpenAI GPT-5.1-Codex-Max            | Let organisations decide | Enabled                                  |
 | OpenAI GPT-5.2                      | Let organisations decide | Enabled                                  |
+| OpenAI GPT-5.2-Codex                | Let organisations decide | Enabled                                  |
 | xAI Grok Code Fast 1                | Disabled everywhere      | Disabled by Enterprise                   |
 
 ### Feature settings
@@ -160,3 +161,7 @@ Disabled
 
 - Enables Google Gemini 3 Flash
 - Removes "Preview" status of several OpenAI models
+
+### 14/01/2026 ([source](https://github.com/ministryofjustice/.github/pull/28))
+
+- Enables OpenAI GPT-5.2-Codex 
