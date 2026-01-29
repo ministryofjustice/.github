@@ -165,3 +165,7 @@ Disabled
 ### 14/01/2026 ([source](https://github.com/ministryofjustice/.github/pull/28))
 
 - Enables OpenAI GPT-5.2-Codex 
+
+### 29/01/26 ([source](https://github.com/ministryofjustice/.github/pull/30))
+
+- Enable GitHub Copilot Code Review
