@@ -98,7 +98,7 @@ Initially disabled - this will be enabled after the onboarding of the Dev Experi
 
 ### Copilot code review
 
-Disabled - a part of this tool going through the Technical Design Authority process, it was agreed that AI Agents should not be allowed to 'check their own homework'. A human in the loop must always check the work (e.g review pull requests)
+Enabled
 
 ### Block Copilot code review in all enterprise repositories
 
@@ -165,3 +165,7 @@ Disabled
 ### 14/01/2026 ([source](https://github.com/ministryofjustice/.github/pull/28))
 
 - Enables OpenAI GPT-5.2-Codex 
+
+### 29/01/26 ([source](https://github.com/ministryofjustice/.github/pull/30))
+
+- Enable GitHub Copilot Code Review
