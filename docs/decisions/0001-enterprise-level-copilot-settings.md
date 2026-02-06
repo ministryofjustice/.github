@@ -43,7 +43,7 @@ No pattern currently set
 | Anthropic Claude Sonnet 4.5         | Let organisations decide | Enabled                                  |
 | Anthropic Claude Haiku 4.5          | Let organisations decide | Enabled                                  |
 | Anthropic Claude Opus 4.1           | Disabled everywhere      | Disabled by Enterprise                   |
-| Anthropic Claude Opus 4.5.          | Let organisations decide | Enabled                                  |
+| Anthropic Claude Opus 4.5           | Let organisations decide | Enabled                                  |
 | Anthropic Claude Opus 4.6           | Let organisations decide | Enabled                                  |
 | Google Gemini 2.5 Pro               | Let organisations decide | Enabled                                  |
 | Google Gemini 3 Pro (Preview)       | Let organisations decide | Enabled                                  |
