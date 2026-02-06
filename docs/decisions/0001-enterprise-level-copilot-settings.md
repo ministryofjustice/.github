@@ -1,7 +1,7 @@
 # 1. Initial configuration of enterprise level copilot settings
 
 Date: 2025-09-12
-Last Updated: 2025-11-25
+Last Updated: 2026-02-06
 
 ## Status
 
@@ -43,7 +43,8 @@ No pattern currently set
 | Anthropic Claude Sonnet 4.5         | Let organisations decide | Enabled                                  |
 | Anthropic Claude Haiku 4.5          | Let organisations decide | Enabled                                  |
 | Anthropic Claude Opus 4.1           | Disabled everywhere      | Disabled by Enterprise                   |
-| Anthropic Claude Opus 4.5 (Preview) | Let organisations decide | Enabled                                  |
+| Anthropic Claude Opus 4.5           | Let organisations decide | Enabled                                  |
+| Anthropic Claude Opus 4.6           | Let organisations decide | Enabled                                  |
 | Google Gemini 2.5 Pro               | Let organisations decide | Enabled                                  |
 | Google Gemini 3 Pro (Preview)       | Let organisations decide | Enabled                                  |
 | Google Gemini 3 Flash (Preview)     | Let organisations decide | Enabled                                  |
@@ -169,3 +170,7 @@ Disabled
 ### 29/01/26 ([source](https://github.com/ministryofjustice/.github/pull/30))
 
 - Enable GitHub Copilot Code Review
+
+### 06/02/26 ([source](https://github.com/ministryofjustice/.github/pull/31))
+
+- Enable Claude Opus 4.6
