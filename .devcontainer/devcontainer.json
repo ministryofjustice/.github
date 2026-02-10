@@ -7,7 +7,6 @@
   "customizations": {
     "vscode": {
       "extensions": [
-        "EditorConfig.EditorConfig",
         "GitHub.vscode-pull-request-github",
         "GitHub.copilot-chat"
       ]
