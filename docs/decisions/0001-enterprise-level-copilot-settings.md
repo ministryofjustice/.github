@@ -1,7 +1,7 @@
 # 1. Initial configuration of enterprise level copilot settings
 
 Date: 2025-09-12
-Last Updated: 2026-02-10
+Last Updated: 2026-02-11
 
 ## Status
 
@@ -37,28 +37,29 @@ No pattern currently set
 
 ### Models
 
-| Model                               | Enterprise Setting       | Organisation Setting (ministryofjustice) |
-| ----------------------------------- | ------------------------ | ---------------------------------------- |
-| Anthropic Claude Sonnet 4           | Disabled everywhere      | Disabled by Enterprise                   |
-| Anthropic Claude Sonnet 4.5         | Let organisations decide | Enabled                                  |
-| Anthropic Claude Haiku 4.5          | Let organisations decide | Enabled                                  |
-| Anthropic Claude Opus 4.1           | Disabled everywhere      | Disabled by Enterprise                   |
-| Anthropic Claude Opus 4.5           | Let organisations decide | Enabled                                  |
-| Anthropic Claude Opus 4.6           | Let organisations decide | Enabled                                  |
-| Google Gemini 2.5 Pro               | Let organisations decide | Enabled                                  |
-| Google Gemini 3 Pro (Preview)       | Let organisations decide | Enabled                                  |
-| Google Gemini 3 Flash (Preview)     | Let organisations decide | Enabled                                  |
-| OpenAI GPT-5                        | Let organisations decide | Enabled                                  |
-| OpenAI GPT-5-Codex (Preview)        | Let organisations decide | Enabled                                  |
-| OpenAI GPT-5 mini                   | Let organisations decide | Enabled                                  |
-| OpenAI GPT-5.1                      | Let organisations decide | Enabled                                  |
-| OpenAI GPT-5.1-Codex                | Let organisations decide | Enabled                                  |
-| OpenAI GPT-5.1-Codex-Mini (Preview) | Let organisations decide | Enabled                                  |
-| OpenAI GPT-5.1-Codex-Max            | Let organisations decide | Enabled                                  |
-| OpenAI GPT-5.2                      | Let organisations decide | Enabled                                  |
-| OpenAI GPT-5.2-Codex                | Let organisations decide | Enabled                                  |
-| OpenAI GPT-5.3-Codex                | Let organisations decide | Enabled                                  |
-| xAI Grok Code Fast 1                | Disabled everywhere      | Disabled by Enterprise                   |
+| Model                                 | Enterprise Setting       | Organisation Setting (ministryofjustice) |
+| ------------------------------------- | ------------------------ | ---------------------------------------- |
+| Anthropic Claude Sonnet 4             | Disabled everywhere      | Disabled by Enterprise                   |
+| Anthropic Claude Sonnet 4.5           | Let organisations decide | Enabled                                  |
+| Anthropic Claude Haiku 4.5            | Let organisations decide | Enabled                                  |
+| Anthropic Claude Opus 4.1             | Disabled everywhere      | Disabled by Enterprise                   |
+| Anthropic Claude Opus 4.5             | Let organisations decide | Enabled                                  |
+| Anthropic Claude Opus 4.6             | Let organisations decide | Enabled                                  |
+| Anthropic Claude Opus 4.6 (fast mode) | Let organisations decide | Enabled                                  |
+| Google Gemini 2.5 Pro                 | Let organisations decide | Enabled                                  |
+| Google Gemini 3 Pro (Preview)         | Let organisations decide | Enabled                                  |
+| Google Gemini 3 Flash (Preview)       | Let organisations decide | Enabled                                  |
+| OpenAI GPT-5                          | Let organisations decide | Enabled                                  |
+| OpenAI GPT-5-Codex (Preview)          | Let organisations decide | Enabled                                  |
+| OpenAI GPT-5 mini                     | Let organisations decide | Enabled                                  |
+| OpenAI GPT-5.1                        | Let organisations decide | Enabled                                  |
+| OpenAI GPT-5.1-Codex                  | Let organisations decide | Enabled                                  |
+| OpenAI GPT-5.1-Codex-Mini (Preview)   | Let organisations decide | Enabled                                  |
+| OpenAI GPT-5.1-Codex-Max              | Let organisations decide | Enabled                                  |
+| OpenAI GPT-5.2                        | Let organisations decide | Enabled                                  |
+| OpenAI GPT-5.2-Codex                  | Let organisations decide | Enabled                                  |
+| OpenAI GPT-5.3-Codex                  | Let organisations decide | Enabled                                  |
+| xAI Grok Code Fast 1                  | Disabled everywhere      | Disabled by Enterprise                   |
 
 ### Feature settings
 
@@ -166,7 +167,7 @@ Disabled
 
 ### 14/01/2026 ([source](https://github.com/ministryofjustice/.github/pull/28))
 
-- Enables OpenAI GPT-5.2-Codex 
+- Enables OpenAI GPT-5.2-Codex
 
 ### 29/01/26 ([source](https://github.com/ministryofjustice/.github/pull/30))
 
@@ -179,3 +180,7 @@ Disabled
 ### 10/02/26 ([source](https://github.com/ministryofjustice/.github/pull/32))
 
 - Enable OpenAI GPT 5.3 Codex
+
+### 11/02/26 ([source](https://github.com/ministryofjustice/.github/pull/33))
+
+- Enable Claude Opus 4.6 (fast mode)
