@@ -1,7 +1,7 @@
 # 1. Initial configuration of enterprise level copilot settings
 
 Date: 2025-09-12
-Last Updated: 2026-02-11
+Last Updated: 2026-02-17
 
 ## Status
 
@@ -185,3 +185,7 @@ Disabled
 ### 11/02/26 ([source](https://github.com/ministryofjustice/.github/pull/33))
 
 - Enable Claude Opus 4.6 (fast mode)
+
+### 17/02/2026 ([source](https://github.com/ministryofjustice/.github/pull/35))
+
+- Enable Claude Sonnet 4.6
