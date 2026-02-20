@@ -41,6 +41,7 @@ No pattern currently set
 | ------------------------------------- | ------------------------ | ---------------------------------------- |
 | Anthropic Claude Sonnet 4             | Disabled everywhere      | Disabled by Enterprise                   |
 | Anthropic Claude Sonnet 4.5           | Let organisations decide | Enabled                                  |
+| Anthropic Claude Sonnet 4.6           | Let organisations decide | Enabled                                  |
 | Anthropic Claude Haiku 4.5            | Let organisations decide | Enabled                                  |
 | Anthropic Claude Opus 4.1             | Disabled everywhere      | Disabled by Enterprise                   |
 | Anthropic Claude Opus 4.5             | Let organisations decide | Enabled                                  |
@@ -186,6 +187,10 @@ Disabled
 
 - Enable Claude Opus 4.6 (fast mode)
 
-### 20/02/26 ([source](https://github.com/ministryofjustice/.github/pull/35))
+### 17/02/26 ([source](https://github.com/ministryofjustice/.github/pull/34))
+
+- Enable Claude Sonnet 4.6
+
+### 20/02/26 ([source](https://github.com/ministryofjustice/.github/pull/37))
 
 - Enable Google Gemini 3.1 Pro
