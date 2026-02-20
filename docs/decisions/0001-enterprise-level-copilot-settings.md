@@ -49,7 +49,7 @@ No pattern currently set
 | Anthropic Claude Opus 4.6 (fast mode) | Let organisations decide | Enabled                                  |
 | Google Gemini 2.5 Pro                 | Let organisations decide | Enabled                                  |
 | Google Gemini 3 Pro (Preview)         | Let organisations decide | Enabled                                  |
-| Google Gemini 3.1 Pro                 | Let organisations decide | Enabled                                  |
+| Google Gemini 3.1 Pro (Preview)       | Let organisations decide | Enabled                                  |
 | Google Gemini 3 Flash (Preview)       | Let organisations decide | Enabled                                  |
 | OpenAI GPT-5                          | Let organisations decide | Enabled                                  |
 | OpenAI GPT-5-Codex (Preview)          | Let organisations decide | Enabled                                  |
