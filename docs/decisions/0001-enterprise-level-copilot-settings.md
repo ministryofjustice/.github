@@ -1,7 +1,7 @@
 # 1. Initial configuration of enterprise level copilot settings
 
 Date: 2025-09-12
-Last Updated: 2026-02-20
+Last Updated: 2026-03-06
 
 ## Status
 
@@ -61,6 +61,7 @@ No pattern currently set
 | OpenAI GPT-5.2                        | Let organisations decide | Enabled                                  |
 | OpenAI GPT-5.2-Codex                  | Let organisations decide | Enabled                                  |
 | OpenAI GPT-5.3-Codex                  | Let organisations decide | Enabled                                  |
+| OpenAI GPT-5.4                        | Let organisations decide | Enabled                                  |
 | xAI Grok Code Fast 1                  | Disabled everywhere      | Disabled by Enterprise                   |
 
 ### Feature settings
@@ -194,3 +195,7 @@ Disabled
 ### 20/02/26 ([source](https://github.com/ministryofjustice/.github/pull/37))
 
 - Enable Google Gemini 3.1 Pro
+
+### 06/03/26 ([source](https://github.com/ministryofjustice/.github/pull/38))
+
+- Enable OpenAI GPT 5.4
