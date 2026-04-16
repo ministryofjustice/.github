@@ -1,7 +1,7 @@
 # 1. Initial configuration of enterprise level copilot settings
 
 Date: 2025-09-12
-Last Updated: 2026-03-06
+Last Updated: 2026-04-16
 
 ## Status
 
@@ -47,6 +47,7 @@ No pattern currently set
 | Anthropic Claude Opus 4.5             | Let organisations decide | Enabled                                  |
 | Anthropic Claude Opus 4.6             | Let organisations decide | Enabled                                  |
 | Anthropic Claude Opus 4.6 (fast mode) | Let organisations decide | Enabled                                  |
+| Anthropic Claude Opus 4.7             | Let organisations decide | Enabled                                  |
 | Google Gemini 2.5 Pro                 | Let organisations decide | Enabled                                  |
 | Google Gemini 3 Pro (Preview)         | Let organisations decide | Enabled                                  |
 | Google Gemini 3.1 Pro (Preview)       | Let organisations decide | Enabled                                  |
@@ -199,3 +200,7 @@ Disabled
 ### 06/03/26 ([source](https://github.com/ministryofjustice/.github/pull/38))
 
 - Enable OpenAI GPT 5.4
+
+### 16/04/26 ([source](https://github.com/ministryofjustice/.github/pull/PLACEHOLDER))
+
+- Enable Claude Opus 4.7
