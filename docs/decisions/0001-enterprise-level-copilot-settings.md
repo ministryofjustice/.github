@@ -1,7 +1,7 @@
 # 1. Initial configuration of enterprise level copilot settings
 
 Date: 2025-09-12
-Last Updated: 2026-04-16
+Last Updated: 2026-05-01
 
 ## Status
 
@@ -63,6 +63,7 @@ No pattern currently set
 | OpenAI GPT-5.2-Codex                  | Let organisations decide | Enabled                                  |
 | OpenAI GPT-5.3-Codex                  | Let organisations decide | Enabled                                  |
 | OpenAI GPT-5.4                        | Let organisations decide | Enabled                                  |
+| OpenAI GPT-5.5                        | Let organisations decide | Enabled                                  |
 | xAI Grok Code Fast 1                  | Disabled everywhere      | Disabled by Enterprise                   |
 
 ### Feature settings
@@ -204,3 +205,7 @@ Disabled
 ### 16/04/26 ([source](https://github.com/ministryofjustice/.github/pull/40))
 
 - Enable Claude Opus 4.7
+
+### 01/05/2026 (source](https://github.com/ministryofjustice/.github/pull/41))
+
+- Enable OpenAI GPT 5.5
