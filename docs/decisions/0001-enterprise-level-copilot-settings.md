@@ -211,6 +211,6 @@ Disabled
 
 - Enable OpenAI GPT 5.5
 
-### 29/05/26 ([source](https://github.com/ministryofjustice/.github/pull/PLACEHOLDER))
+### 29/05/26 ([source](https://github.com/ministryofjustice/.github/pull/42))
 
 - Enable Claude Opus 4.8
