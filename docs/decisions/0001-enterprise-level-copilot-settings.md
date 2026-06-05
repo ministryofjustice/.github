@@ -1,7 +1,7 @@
 # 1. Initial configuration of enterprise level copilot settings
 
 Date: 2025-09-12
-Last Updated: 2026-05-01
+Last Updated: 2026-06-05
 
 ## Status
 
@@ -63,6 +63,7 @@ No pattern currently set
 | OpenAI GPT-5.2-Codex                  | Let organisations decide | Enabled                                  |
 | OpenAI GPT-5.3-Codex                  | Let organisations decide | Enabled                                  |
 | OpenAI GPT-5.4                        | Let organisations decide | Enabled                                  |
+| OpenAI GPT-5.4 mini                  | Let organisations decide | Enabled                                  |
 | OpenAI GPT-5.5                        | Let organisations decide | Enabled                                  |
 | xAI Grok Code Fast 1                  | Disabled everywhere      | Disabled by Enterprise                   |
 
@@ -141,6 +142,10 @@ Enabled - to facilitate assessment of Copilot usage across the enterprise
 Disabled
 
 ## Amendments
+
+### 05/06/26 ([source](https://github.com/ministryofjustice/.github/pull/43))
+
+- Enable GPT-5.4 mini
 
 ### 13/11/2025 ([source](https://github.com/ministryofjustice/.github/pull/21))
 
