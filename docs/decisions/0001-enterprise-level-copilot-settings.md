@@ -48,6 +48,7 @@ No pattern currently set
 | Anthropic Claude Opus 4.6             | Let organisations decide | Enabled                                  |
 | Anthropic Claude Opus 4.6 (fast mode) | Let organisations decide | Enabled                                  |
 | Anthropic Claude Opus 4.7             | Let organisations decide | Enabled                                  |
+| Anthropic Claude Opus 4.8             | Let organisations decide | Enabled                                  |
 | Google Gemini 2.5 Pro                 | Let organisations decide | Enabled                                  |
 | Google Gemini 3 Pro (Preview)         | Let organisations decide | Enabled                                  |
 | Google Gemini 3.1 Pro (Preview)       | Let organisations decide | Enabled                                  |
@@ -143,10 +144,6 @@ Disabled
 
 ## Amendments
 
-### 05/06/26 ([source](https://github.com/ministryofjustice/.github/pull/43))
-
-- Enable GPT-5.4 mini
-
 ### 13/11/2025 ([source](https://github.com/ministryofjustice/.github/pull/21))
 
 - Enable GitHub Copilot CLI - Allows similar experience to GitHub Copilot via Visual Studio Code, but is editor agnostic
@@ -214,3 +211,11 @@ Disabled
 ### 01/05/2026 (source](https://github.com/ministryofjustice/.github/pull/41))
 
 - Enable OpenAI GPT 5.5
+
+### 29/05/26 ([source](https://github.com/ministryofjustice/.github/pull/42))
+
+- Enable Claude Opus 4.8
+
+### 05/06/26 ([source](https://github.com/ministryofjustice/.github/pull/43))
+
+- Enable GPT-5.4 mini
