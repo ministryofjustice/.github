@@ -10,9 +10,9 @@ Proposed
 
 ## Context
 
-This ADR is a enhancement of the previous ADR [0001](./0001-enterprise-level-copilot-settings.md).
+This ADR is an enhancement of the previous ADR [0001](./0001-enterprise-level-copilot-settings.md).
 
-GitHub Copilot Enterprise has been contiously improving, and various new features have been added, as well as some existing features have been deprecated. This ADR aims to provide a comprehensive overview of the current state of GitHub Copilot Enterprise settings, including the new features and changes that have been introduced since the previous ADR.
+GitHub Copilot Enterprise has been continuously improving, with new features added and some existing features deprecated. This ADR provides an overview of the current GitHub Copilot Enterprise settings, including features and changes introduced since ADR 0001.
 
 ---
 
