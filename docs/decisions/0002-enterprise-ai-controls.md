@@ -14,6 +14,10 @@ This ADR is an enhancement of the previous ADR [0001](./0001-enterprise-level-co
 
 GitHub Copilot Enterprise has been continuously improving, with new features added and some existing features deprecated. This ADR provides an overview of the current GitHub Copilot Enterprise settings, including features and changes introduced since ADR 0001.
 
+This ADR is intended to be both a governance record (what settings are in place and why) and a current-state reference.
+
+Controls documented in ADR 0001 that are no longer present in current enterprise settings are intentionally omitted from this document.
+
 ---
 
 ## Key roles and responsibilities
@@ -39,6 +43,8 @@ GitHub Copilot context exclusion is delegated to repository owners. They are res
 ### Default models
 
 _Selected Copilot models are available across every organization in Ministry of Justice (UK)_
+
+_Model status is documented at enterprise level. Copilot is enabled through one organization, so separate per-organization model variance is not tracked in this ADR._
 
 | Model                                           | Status   |
 | ----------------------------------------------- | -------- |
@@ -67,8 +73,6 @@ _GitHub Copilot can allow or block [code suggestions](https://docs.github.com/en
 
 Status: Blocked
 
-Rationale: TODO
-
 ## Features
 
 ### Policies for enterprise-assigned users
@@ -77,15 +81,11 @@ _Enable all Copilot features set to "Let organizations decide" for users with a 
 
 Status: Disabled everywhere
 
-Rationale: We do not use enterprise-assigned users, so this setting is not applicable to us.
-
 ### Spark (Preview)
 
 _Organizations can have access to [GitHub Spark](https://gh.io/responsible-use-of-github-spark). This preview is governed by GitHub's [pre-release terms](https://docs.github.com/en/site-policy/github-terms/github-pre-release-license-terms)._
 
 Status: Disabled everywhere
-
-Rationale: GitHub Spark functionality has not been evaluated yet, and we do not have a use case for it at this time.
 
 ### Editor preview features
 
@@ -93,15 +93,11 @@ _Organizations can have access to editor preview features._
 
 Status: Disabled everywhere
 
-Rationale: TODO
-
 ### Copilot can search the web
 
 _Copilot can answer questions about new trends and give improved answers, via Bing. See [Microsoft Privacy Statement](https://privacy.microsoft.com/en-us/privacystatement)._
 
 Status: Disabled everywhere
-
-Rationale: TODO
 
 ### Copilot can search the web using model native search (Preview)
 
@@ -109,15 +105,11 @@ _If enabled, Copilot can answer questions using a model's built-in search capabi
 
 Status: Disabled everywhere
 
-Rationale: TODO
-
 ### Copilot-generated commit messages
 
 _If enabled, Copilot will [suggest commit messages](https://docs.github.com/en/copilot/responsible-use/copilot-commit-message-generation) for changes made on GitHub.com._
 
 Status: Disabled everywhere
-
-Rationale: TODO
 
 ### Copilot Spaces
 
@@ -125,15 +117,11 @@ _If enabled, organization members can view and create [Copilot Spaces](https://d
 
 Status: Let organizations decide
 
-Rationale: TODO
-
 ### Copilot Spaces Individual Access
 
 _If enabled, organization members can create individually owned Copilot Spaces. When disabled, users cannot create individual spaces._
 
 Status: Disabled everywhere
-
-Rationale: TODO
 
 ### Copilot Spaces Individual Sharing
 
@@ -141,15 +129,11 @@ _If enabled, organization members can share individually owned Copilot Spaces th
 
 Status: Disabled everywhere
 
-Rationale: TODO
-
 ### Copilot Memory (Preview)
 
 _Members can use [Copilot Memory](https://docs.github.com/copilot/concepts/agents/copilot-memory) to store facts about repositories and personal preferences about how they want to interact with Copilot. These are available to agents in future sessions. Users can turn this off at any time, regardless of enterprise or organization policy. Learn more in the [Privacy Statement](https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement). This preview is governed by [GitHub's pre-release terms](https://docs.github.com/en/site-policy/github-terms/github-pre-release-license-terms)._
 
 Status: Disabled everywhere
-
-Rationale: TODO
 
 ### Semantic indexing for Non-GitHub Repositories (Preview)
 
@@ -157,23 +141,17 @@ _If enabled, members of this business will have access to upload non-GitHub repo
 
 Status: Disabled everywhere
 
-Rationale: TODO
-
 ### Enable custom models (Preview)
 
 _Enable to allow your organizations to configure and use custom models via API key. When using custom models, GitHub is allowed to share your data with third-party services, including Azure and OpenAI, using your provided key._
 
 Status: Disabled
 
-Rationale: TODO
-
 ### Bring Your Own Language Model Key in Select IDEs
 
 _Enable the use of your own third-party language model API keys for VS Code and JetBrains. [Learn more](https://code.visualstudio.com/docs/copilot/customization/language-models#_bring-your-own-language-model-key)._
 
 Status: Enabled everywhere
-
-Rationale: TODO
 
 ## Billing
 
@@ -204,8 +182,6 @@ Status: Enabled everywhere
 _Organizations can use Copilot Chat in GitHub.com and knowledge base search._
 
 Status: Let organizations decide
-
-Rationale: TODO
 
 ### Copilot CLI
 
@@ -276,3 +252,10 @@ Status: Let organizations decide
 _If enabled, Copilot code review will be blocked in all repositories in this enterprise for all users, even if they are not assigned a Copilot license by this enterprise._
 
 Status: Off
+
+## Amendments
+
+### 18/06/2026
+
+- Created ADR 0002 to supersede ADR 0001 and document the current enterprise AI control set.
+- Updated structure to reflect current GitHub Copilot Enterprise settings and feature areas.
