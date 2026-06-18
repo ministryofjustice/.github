@@ -42,19 +42,19 @@ _Selected Copilot models are available across every organization in Ministry of 
 
 | Model                                           | Status   |
 | ----------------------------------------------- | -------- |
-| Anthropic Claude Opus 4.5                       | Optional |
-| Anthropic Claude Sonnet 4.5                     | Optional |
 | Anthropic Claude Haiku 4.5                      | Optional |
-| Google Gemini 2.5 Pro                           | Optional |
-| Google Gemini 3 Flash (Preview)                 | Optional |
-| OpenAI GPT-5 mini                               | Optional |
+| Anthropic Claude Opus 4.5                       | Optional |
 | Anthropic Claude Opus 4.6                       | Optional |
 | Anthropic Claude Opus 4.6 (fast mode) (Preview) | Optional |
 | Anthropic Claude Opus 4.7                       | Optional |
 | Anthropic Claude Opus 4.8                       | Optional |
+| Anthropic Claude Sonnet 4.5                     | Optional |
 | Anthropic Claude Sonnet 4.6                     | Optional |
+| Google Gemini 2.5 Pro                           | Optional |
 | Google Gemini 3.1 Pro (Preview)                 | Optional |
 | Google Gemini 3.5 Flash                         | Optional |
+| Google Gemini 3 Flash (Preview)                 | Optional |
+| OpenAI GPT-5 mini                               | Optional |
 | OpenAI GPT-5.4                                  | Optional |
 | OpenAI GPT-5.4 mini                             | Optional |
 | OpenAI GPT-5.5                                  | Optional |
