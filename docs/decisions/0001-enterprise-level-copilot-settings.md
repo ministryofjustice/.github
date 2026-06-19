@@ -1,11 +1,12 @@
 # 1. Initial configuration of enterprise level copilot settings
 
 Date: 2025-09-12
-Last Updated: 2026-06-05
+
+Last Updated: 2026-06-18
 
 ## Status
 
-Accepted
+Superseded by [0002](./0002-enterprise-ai-controls.md)
 
 ## Context
 
