@@ -2,7 +2,7 @@
 
 Date: 2026-06-18
 
-Last Updated: 2026-06-18
+Last Updated: 2026-06-19
 
 ## Status
 
@@ -91,7 +91,7 @@ Status: Disabled everywhere
 
 _Organizations can have access to editor preview features._
 
-Status: Disabled everywhere
+Status: Enabled everywhere
 
 ### Copilot can search the web
 
@@ -259,3 +259,7 @@ Status: Off
 
 - Created ADR 0002 to supersede ADR 0001 and document the current enterprise AI control set.
 - Updated structure to reflect current GitHub Copilot Enterprise settings and feature areas.
+
+### 19/06/2026
+
+- Enable "Editor preview features"
