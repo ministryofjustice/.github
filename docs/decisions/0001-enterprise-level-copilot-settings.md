@@ -2,7 +2,7 @@
 
 Date: 2025-09-12
 
-Last Updated: 2026-06-18
+Last Updated: 2026-06-30
 
 ## Status
 
@@ -43,6 +43,7 @@ No pattern currently set
 | Anthropic Claude Sonnet 4             | Disabled everywhere      | Disabled by Enterprise                   |
 | Anthropic Claude Sonnet 4.5           | Let organisations decide | Enabled                                  |
 | Anthropic Claude Sonnet 4.6           | Let organisations decide | Enabled                                  |
+| Anthropic Claude Sonnet 5             | Let organisations decide | Enabled                                  |
 | Anthropic Claude Haiku 4.5            | Let organisations decide | Enabled                                  |
 | Anthropic Claude Opus 4.1             | Disabled everywhere      | Disabled by Enterprise                   |
 | Anthropic Claude Opus 4.5             | Let organisations decide | Enabled                                  |
@@ -220,3 +221,7 @@ Disabled
 ### 05/06/26 ([source](https://github.com/ministryofjustice/.github/pull/43))
 
 - Enable GPT-5.4 mini
+
+### 30/06/26 ([source](https://github.com/ministryofjustice/.github/pull/PLACEHOLDER))
+
+- Enable Claude Sonnet 5
