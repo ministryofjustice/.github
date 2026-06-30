@@ -222,6 +222,6 @@ Disabled
 
 - Enable GPT-5.4 mini
 
-### 30/06/26 ([source](https://github.com/ministryofjustice/.github/pull/PLACEHOLDER))
+### 30/06/26 ([source](https://github.com/ministryofjustice/.github/pull/46))
 
 - Enable Claude Sonnet 5
