@@ -43,7 +43,7 @@ For model name "Anthropic Claude Opus 4.7":
   ```
   ## Proposed Changes
 
-  - Enables Claude Opus 4.7 model in ADR 0002
+  - Enables Claude Opus 4.7 model
   ```
 - **Table row:** `| Anthropic Claude Opus 4.7                       | Optional |`
 - **Amendment:** `### 16/04/26 ([source](https://github.com/ministryofjustice/.github/pull/40))\n\n- Enable Claude Opus 4.7`
