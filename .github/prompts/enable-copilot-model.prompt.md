@@ -8,11 +8,11 @@ Provide the full model name (e.g. "Anthropic Claude Opus 4.7", "OpenAI GPT-5.5",
 
 ## Steps
 
-1. Read the current state of `docs/decisions/0001-enterprise-level-copilot-settings.md`.
+1. Read the current state of `docs/decisions/0002-enterprise-ai-controls.md`.
 2. Checkout a new branch from `main` named `enable-<model-name-lowercased-with-hyphens>` (e.g. `enable-claude-opus-4.7`, `enable-gpt-5.5`). The model vendor prefix (e.g. "Anthropic", "OpenAI", "Google") should be **excluded** from the branch name.
-3. Make three changes to `docs/decisions/0001-enterprise-level-copilot-settings.md`:
+3. Make three changes to `docs/decisions/0002-enterprise-ai-controls.md`:
    - **Update "Last Updated" date** on line 4 to today's date in `YYYY-MM-DD` format.
-   - **Add a new row** to the `### Models` table for the new model. Insert it in the correct position among its vendor group (Anthropic, Google, OpenAI, xAI), maintaining alphabetical/version order within that group. Use `Let organisations decide` for the Enterprise Setting and `Enabled` for the Organisation Setting. Pad with spaces to align the table columns.
+  - **Add a new row** to the `### Default models` table for the new model. Insert it in the correct position among its vendor group (Anthropic, Google, OpenAI, xAI), maintaining alphabetical/version order within that group. Use `Optional` for the `Status` value. Pad with spaces to align the table columns.
    - **Add an amendments entry** at the bottom of the `## Amendments` section using this format:
      ```
      ### DD/MM/YY ([source](https://github.com/ministryofjustice/.github/pull/PLACEHOLDER))
@@ -43,9 +43,9 @@ For model name "Anthropic Claude Opus 4.7":
   ```
   ## Proposed Changes
 
-  - Enables Claude Opus 4.7 model
+  - Enables Claude Opus 4.7 model in ADR 0002
   ```
-- **Table row:** `| Anthropic Claude Opus 4.7             | Let organisations decide | Enabled                                  |`
+- **Table row:** `| Anthropic Claude Opus 4.7                       | Optional |`
 - **Amendment:** `### 16/04/26 ([source](https://github.com/ministryofjustice/.github/pull/40))\n\n- Enable Claude Opus 4.7`
 
 ## Important Notes

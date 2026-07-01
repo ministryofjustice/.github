@@ -2,7 +2,7 @@
 
 Date: 2026-06-18
 
-Last Updated: 2026-06-19
+Last Updated: 2026-07-01
 
 ## Status
 
@@ -56,6 +56,7 @@ _Model status is documented at enterprise level. Copilot is enabled through one 
 | Anthropic Claude Opus 4.8                       | Optional |
 | Anthropic Claude Sonnet 4.5                     | Optional |
 | Anthropic Claude Sonnet 4.6                     | Optional |
+| Anthropic Claude Sonnet 5                       | Optional |
 | Google Gemini 2.5 Pro                           | Optional |
 | Google Gemini 3.1 Pro (Preview)                 | Optional |
 | Google Gemini 3.5 Flash                         | Optional |
@@ -263,3 +264,7 @@ Status: Off
 ### 19/06/2026
 
 - Enable "Editor preview features"
+
+### 01/07/2026 ([source](https://github.com/ministryofjustice/.github/pull/46))
+
+- Enable Claude Sonnet 5
