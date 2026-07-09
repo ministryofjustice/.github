@@ -61,10 +61,14 @@ _Model status is documented at enterprise level. Copilot is enabled through one 
 | Google Gemini 3.1 Pro (Preview)                 | Optional |
 | Google Gemini 3.5 Flash                         | Optional |
 | Google Gemini 3 Flash (Preview)                 | Optional |
+| Microsoft MAI-Code-1-Flash                      | Optional |
 | OpenAI GPT-5 mini                               | Optional |
 | OpenAI GPT-5.4                                  | Optional |
 | OpenAI GPT-5.4 mini                             | Optional |
 | OpenAI GPT-5.5                                  | Optional |
+| OpenAI GPT-5.6 Luna                             | Optional |
+| OpenAI GPT-5.6 Sol                              | Optional |
+| OpenAI GPT-5.6 Terra                            | Optional |
 
 ## Privacy
 
