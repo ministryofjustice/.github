@@ -2,7 +2,7 @@
 
 Date: 2026-06-18
 
-Last Updated: 2026-07-01
+Last Updated: 2026-07-09
 
 ## Status
 
@@ -272,3 +272,9 @@ Status: Off
 ### 01/07/2026 ([source](https://github.com/ministryofjustice/.github/pull/46))
 
 - Enable Claude Sonnet 5
+
+### 09/07/2026 ([source](https://github.com/ministryofjustice/.github/pull/50))
+
+- Enable Microsoft MAI-Code-1-Flash
+
+- Enable OpenAI GPT-5.6 Luna, Sol, and Terra
