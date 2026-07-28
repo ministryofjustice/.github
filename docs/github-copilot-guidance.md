@@ -85,6 +85,8 @@ Personal or free AI tools are **not allowed**.
 
 Enterprise tools do **not** train models on user code, prompts, or data; personal tools may lack these safeguards.
 
+GitHub Copilot for Individual or Business are **not allowed** and are restricted on Analytical Platform.
+
 ---
 
 ## Monitoring and Usage
