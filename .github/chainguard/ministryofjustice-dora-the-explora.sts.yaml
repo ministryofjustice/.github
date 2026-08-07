@@ -1,0 +1,31 @@
+# Org-level Octo STS trust policy for ministryofjustice/dora-the-explora.
+#
+# dora-the-explora computes DORA metrics across the estate (per-team metrics,
+# Modernisation Platform Environments applications, and Cloud Platform tenants),
+# so its scheduled workflows must READ from many repositories owned by other
+# teams. Adding a per-repo trust policy to every one of those repos (the Cloud
+# Platform cohort alone is ~150 and changes over time) is not maintainable, so
+# this org-level policy lets dora-the-explora mint a short-lived, READ-ONLY
+# token across the org instead of holding a long-lived PAT.
+#
+# Scope decisions (see PR description for rationale):
+#   * subject_pattern is pinned to the main branch of dora-the-explora only, so
+#     pull requests and forks cannot mint a token.
+#   * permissions are read-only. The scopes cover every DORA workflow:
+#       - contents:      commits (lead time) and file reads (cohort enumeration)
+#       - deployments:   MPE/CP deployment-based metrics
+#       - actions:       workflow runs (change failure rate, deployment
+#                        frequency, MTTR in the per-team scripts)
+#       - pull_requests: merged PRs (lead time for change)
+#   * no `repositories:` allow-list: the token can read across all repositories
+#     the Octo STS installation can see. This is intentional because the metric
+#     cohorts are dynamic; the grant is read-only.
+---
+issuer: https://token.actions.githubusercontent.com
+subject_pattern: repo:ministryofjustice/dora-the-explora:ref:refs/heads/main
+
+permissions:
+  contents: read
+  deployments: read
+  actions: read
+  pull_requests: read
