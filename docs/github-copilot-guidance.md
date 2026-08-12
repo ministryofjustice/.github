@@ -2,7 +2,7 @@
 
 ## Eligibility for a Licence
 
-Licences are currently available only to permanent civil servants in the engineering profession, including:
+Licences are currently available only to permanent civil servants and contractors in the following professions:
 
 - Data Analysts
 - Developers
@@ -11,7 +11,7 @@ Licences are currently available only to permanent civil servants in the enginee
 - Quality/Test Engineers
 - Technical Architects
 
-Contractor staff (including 3rd party vendors) are **not eligible** at this time, though access may be extended in the future.
+Managed service providers may also deploy GitHub Copilot Enterprise for their staff, adhering to the same enterprise controls and guardrails in place for MOJ's GitHub Enterprise account.
 
 ---
 
@@ -21,18 +21,18 @@ Each agency within Justice Digital maintains a **GitHub Copilot Users Team**.
 
 Agency leads are responsible for managing team membership, ensuring only eligible staff have access, and removing users who leave or transfer departments.
 
-Civil servants in the engineering profession should ask their team lead to add them to the appropriate team:
+If you are eligible, you should ask your team lead to add you to the appropriate team:
 
 - [Criminal Injuries Compensation Authority (CICA)](https://github.com/orgs/ministryofjustice/teams/cica-github-copilot-users)
 - [Central Digital](https://github.com/orgs/ministryofjustice/teams/central-digital-copilot-users)
 - [End User Compute Services (EUCS)](https://github.com/orgs/ministryofjustice/teams/technology-services-copilot-users)
 - 
-HMPPS, OPG, and LAA users must be added via pull requests to their respective team repositories:
+HMPPS, OPG, LAA and OCTO users must be added via pull requests to their respective team repositories:
 
 - [HMPPS](https://github.com/ministryofjustice/hmpps-github-teams)
 - [LAA](https://github.com/ministryofjustice/laa-github-teams)
 - [OPG](https://github.com/ministryofjustice/opg-org-infra/tree/main/access-management)
-- [Office for the CTO (OCTO)](https://github.com/ministryofjustice/octo-access)
+- [Office of the CTO (OCTO)](https://github.com/ministryofjustice/octo-access/issues/new?template=github-copilot-access-request.yml)
 
 ---
 
@@ -57,7 +57,7 @@ Documentation: [Getting started](https://github.com/github/copilot-cli)
 
 ## What is included in the Licence
 
-GitHub Copilot users will be assigned [Copilot Enterprise](https://docs.github.com/en/copilot/get-started/plans#comparing-copilot-plans) seats. This plan was chosen to allow users greater access to premium models, such as those created by Anthropic. Each user has 1000 requests to a premium model per billing month. See the guidance [here](https://docs.github.com/en/copilot/how-tos/use-ai-models/configure-access-to-ai-models) on how to select different models within your IDE.
+GitHub Copilot users will be assigned [Copilot Enterprise](https://docs.github.com/en/copilot/get-started/plans#comparing-copilot-plans) seats. This plan was chosen to allow users greater access to premium models, such as those created by Anthropic.
 
 ---
 
@@ -65,21 +65,18 @@ GitHub Copilot users will be assigned [Copilot Enterprise](https://docs.github.c
 ## Enterprise Settings
 
 Enterprise-wide settings for GitHub Copilot have been configured and documented in this decision record:  
-[Enterprise-level Copilot settings](https://github.com/ministryofjustice/.github/blob/main/docs/decisions/0001-enterprise-level-copilot-settings.md)
-
-These settings automatically apply to all organisations within the MoJ GitHub enterprise.  
-If you wish to request changes to these settings, please contact the [project responsible ownwer](https://github.com/ministryofjustice/.github/blob/main/docs/decisions/0001-enterprise-level-copilot-settings.md#key-roles-and-responsibilities).
+[GitHub Copilot Enterprise AI Controls](../docs/decisions/0002-enterprise-ai-controls.md)
 
 ---
 
-## Permitted AI Tools in MoJ
+## Permitted AI Tools in MOJ
 
-Only AI tools under an MoJ enterprise licence are permitted.
+Only AI tools under an MOJ enterprise licence are permitted.
 
 **Approved tools include:**
-- GitHub Copilot for Enterprise
+- GitHub Copilot Enterprise
 - Microsoft 365 Copilot
-- OpenAI ChatGPT Pilot Programme (by request)
+- OpenAI ChatGPT Enterprise
 
 Personal or free AI tools are **not allowed**.
 
@@ -91,7 +88,7 @@ Enterprise tools do **not** train models on user code, prompts, or data; persona
 
 GitHub Copilot usage is auditable via the GitHub Enterprise Account.
 
-The Developer Experience Team (within OCTO) will, once launched, monitor usage across Justice Digital.
+The Developer Experience Team will monitor usage across Justice Digital.
 
 Licences may be reallocated if unused for extended periods.
 
@@ -101,13 +98,10 @@ Licences may be reallocated if unused for extended periods.
 
 Users agree to the General Terms & Conditions when using GitHub Copilot.
 
-Copilot for Enterprise does **not** train on GitHub repositories or cloud-hosted code.
+Copilot Enterprise does **not** train on GitHub repositories or cloud-hosted code.
 
 Suggestions are generated based on the open project on the user's local machine and their prompt.
 
 Code generated by Copilot is owned by HMG; Microsoft claims no IP rights.
 
 GitHub confirms no user data is used for model training, including prompts, code, suggestions, or user information.
-
----
-
