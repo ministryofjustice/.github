@@ -2,7 +2,7 @@
 
 Date: 2026-06-18
 
-Last Updated: 2026-07-09
+Last Updated: 2026-09-30
 
 ## Status
 
@@ -69,6 +69,7 @@ _Model status is documented at enterprise level. Copilot is enabled through one 
 | OpenAI GPT-5.6 Luna                             | Optional |
 | OpenAI GPT-5.6 Sol                              | Optional |
 | OpenAI GPT-5.6 Terra                            | Optional |
+| OpenAI GPT-6.1 Sol                              | Optional |
 
 ## Privacy
 
@@ -278,3 +279,7 @@ Status: Off
 - Enable Microsoft MAI-Code-1-Flash
 
 - Enable OpenAI GPT-5.6 Luna, Sol, and Terra
+
+### 30/09/2026
+
+- Enable OpenAI GPT-6.1 Sol
