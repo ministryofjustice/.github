@@ -30,98 +30,190 @@ Controls documented in ADR 0001 that are no longer present in current enterprise
 
 ---
 
-## Access management
+## Administration and Privacy
 
-Access to GitHub Copilot is delegated to business units. They are responsible for managing access using GitHub Teams. This is done at an Organisation level.
+### Access management
 
-## Content Exclusion
+Access to GitHub Copilot is delegated to agencies. They are responsible for managing access using GitHub Teams. This is done at an Organisation level.
+
+### Content Exclusion
 
 GitHub Copilot context exclusion is delegated to repository owners. They are responsible for managing content exclusion using the GitHub Copilot settings in their repositories. This is done at a repository level.
 
-## Allowed models
-
-### Default models
-
-_Selected Copilot models are available across every organization in Ministry of Justice (UK)_
-
-_Model status is documented at enterprise level. Copilot is enabled through one organization, so separate per-organization model variance is not tracked in this ADR._
-
-| Model                                           | Status   |
-| ----------------------------------------------- | -------- |
-| Anthropic Claude Haiku 4.5                      | Optional |
-| Anthropic Claude Opus 4.5                       | Optional |
-| Anthropic Claude Opus 4.6                       | Optional |
-| Anthropic Claude Opus 4.6 (fast mode) (Preview) | Optional |
-| Anthropic Claude Opus 4.7                       | Optional |
-| Anthropic Claude Opus 4.8                       | Optional |
-| Anthropic Claude Sonnet 4.5                     | Optional |
-| Anthropic Claude Sonnet 4.6                     | Optional |
-| Anthropic Claude Sonnet 5                       | Optional |
-| Google Gemini 2.5 Pro                           | Optional |
-| Google Gemini 3.1 Pro (Preview)                 | Optional |
-| Google Gemini 3.5 Flash                         | Optional |
-| Google Gemini 3 Flash (Preview)                 | Optional |
-| Microsoft MAI-Code-1-Flash                      | Optional |
-| OpenAI GPT-5 mini                               | Optional |
-| OpenAI GPT-5.4                                  | Optional |
-| OpenAI GPT-5.4 mini                             | Optional |
-| OpenAI GPT-5.5                                  | Optional |
-| OpenAI GPT-5.6 Luna                             | Optional |
-| OpenAI GPT-5.6 Sol                              | Optional |
-| OpenAI GPT-5.6 Terra                            | Optional |
-| OpenAI GPT-6.1 Sol                              | Optional |
-
-## Privacy
-
 ### Suggestions matching public code
 
-_GitHub Copilot can allow or block [code suggestions](https://docs.github.com/en/copilot/using-github-copilot/finding-public-code-that-matches-github-copilot-suggestions) matching public code._
+_Allow organizations to receive [code suggestions](https://docs.github.com/en/copilot/using-github-copilot/finding-public-code-that-matches-github-copilot-suggestions) that match publicly available code._
 
 Status: Blocked
 
-## Features
+## Models
 
-### Policies for enterprise-assigned users
+### Default availability for released models
 
-_Enable all Copilot features set to "Let organizations decide" for users with a Copilot license assigned directly from the enterprise._
-
-Status: Disabled everywhere
-
-### Spark (Preview)
-
-_Organizations can have access to [GitHub Spark](https://gh.io/responsible-use-of-github-spark). This preview is governed by GitHub's [pre-release terms](https://docs.github.com/en/site-policy/github-terms/github-pre-release-license-terms)._
+_Controls the default state for [models you haven't explicitly configured.](https://docs.github.com/en/copilot/concepts/models/default-availability)_
 
 Status: Disabled everywhere
 
-### Editor preview features
+### Enabled models
+
+| Model                                                                               | Status   |
+| ----------------------------------------------------------------------------------- | -------- |
+| Anthropic Claude Fable 5                                                            | Disabled |
+| Anthropic Claude Fable 5.1                                                          | Disabled |
+| Anthropic Claude Haiku 4.5                                                          | Enabled  |
+| Anthropic Claude Opus 4.8                                                           | Enabled  |
+| Anthropic Claude Opus 4.8 (fast mode) (Preview)                                     | Disabled |
+| Anthropic Claude Opus 5                                                             | Enabled  |
+| Anthropic Claude Opus 5.5                                                           | Enabled  |
+| Anthropic Claude Sonnet 5                                                           | Enabled  |
+| Anthropic Claude Sonnet 5.5                                                         | Enabled  |
+| Google Gemini 3.7 Flash                                                             | Enabled  |
+| Google Gemini 3.8 Flash                                                             | Enabled  |
+| Microsoft MAI-Code-1.1-Flash                                                        | Enabled  |
+| Moonshot AI Kimi K3                                                                 | Disabled |
+| OpenAI GPT-5 Mini                                                                   | Enabled  |
+| OpenAI GPT-5.3 Codex (GitHub Copilot uses GPT-5.3 Codex as the base fallback model) | Enabled  |
+| OpenAI GPT-5.4                                                                      | Enabled  |
+| OpenAI GPT-5.4 Mini                                                                 | Enabled  |
+| OpenAI GPT-5.5                                                                      | Enabled  |
+| OpenAI GPT-5.6 Luna                                                                 | Enabled  |
+| OpenAI GPT-5.6 Sol                                                                  | Enabled  |
+| OpenAI GPT-5.6 Terra                                                                | Enabled  |
+| OpenAI GPT-6 Astra                                                                  | Enabled  |
+| OpenAI GPT-6 Luna                                                                   | Enabled  |
+| OpenAI GPT-6 Sol                                                                    | Enabled  |
+| OpenAI GPT-6.1 Sol                                                                  | Enabled  |
+| xAI Grok 4.5                                                                        | Disabled |
+| xAI Grok 4.6                                                                        | Disabled |
+| xAI Grok 4.7                                                                        | Disabled |
+
+## Features and Clients
+
+### Default policy for new features and clients
+
+_When GitHub ships new Copilot features and clients, this policy is applied automatically. You can override individual features and clients below. Learn more about default availability_
+
+Status: Disabled
+
+### Clients
+
+#### Copilot cloud agent (coming soon)
+
+_Enables access to Copilot in the cloud, including GitHub.com and GitHub Mobile. This policy replaces previous Copilot Chat and Copilot cloud agent policies._
+
+Status: Enabled everywhere
+
+#### Copilot in GitHub.com
+
+_Organizations can use Copilot Chat in GitHub.com and knowledge base search._
+
+Status: Enabled everywhere
+
+#### Copilot in GitHub Desktop
+
+_Organizations can use GitHub Copilot for assistance in GitHub Desktop._
+
+Status: Enabled everywhere
+
+#### Copilot Chat in the IDE
+
+_Organizations can use Copilot Chat for code editors._
+
+Status: Enabled everywhere
+
+#### Copilot Agent Mode in IDE Chat
+
+_If enabled, organizations may use Agent Mode within their IDE to interact with Copilot for the purpose of reasoning through requests, planning tasks, and making changes to the codebase._
+
+Status: Enabled everywhere
+
+#### Copilot CLI
+
+_If enabled, organizations can use GitHub Copilot CLI as an assistant in the terminal_
+
+Status: Enabled everywhere
+
+#### Allow use of Copilot CLI billed to the organization (Preview)
+
+_Allow use of the Copilot CLI for automations and other uses not linked to a specific user. AI credits used will be billed directly to the organization, using the shared pool first, and then incurring additional usage, subject to budgets._
+
+Status: Enabled
+
+#### Store local sessions in the Cloud
+
+_If enabled, CLI and VSCode sessions are stored in the cloud._
+
+Status: View from cloud
+
+
+#### Copilot Chat in GitHub Mobile
+
+_If enabled, organizations can use GitHub Copilot Chat in GitHub Mobile personalized to a codebase._
+
+Status: Disabled everywhere
+
+#### GitHub Copilot app
+
+_If enabled, members of organizations in your enterprise can use the GitHub Copilot app. Enforcement begins July 27th, 2026 in version 1.1 of the GitHub Copilot app. The Copilot CLI policy continues to govern the GitHub Copilot App until version 1.1._
+
+Status: Enabled everywhere
+
+#### Agent apps (Preview)
+
+_If enabled, enterprise admins can turn on agentic features provided by GitHub Apps._
+
+Status: Disabled everywhere
+
+### Features
+
+#### Copilot can search the web
+
+_Copilot can answer questions about new trends and give improved answers, via Bing. See [Microsoft Privacy Statement](https://privacy.microsoft.com/en-us/privacystatement)._
+
+Status: Enabled everywhere
+
+
+#### Copilot can search the web using model native search (Preview)
+
+_If enabled, Copilot can answer questions using a model's built-in search capabilities._
+
+Status: Enabled everywhere
+
+#### Copilot-generated commit messages
+
+_If enabled, Copilot will [suggest commit messages](https://docs.github.com/en/copilot/responsible-use/copilot-commit-message-generation) for changes made on GitHub.com._
+
+Status: Enabled everywhere
+
+#### Editor preview features
 
 _Organizations can have access to editor preview features._
 
 Status: Enabled everywhere
 
-### Copilot can search the web
+#### Copilot Memory (Preview)
 
-_Copilot can answer questions about new trends and give improved answers, via Bing. See [Microsoft Privacy Statement](https://privacy.microsoft.com/en-us/privacystatement)._
-
-Status: Disabled everywhere
-
-### Copilot can search the web using model native search (Preview)
-
-_If enabled, Copilot can answer questions using a model's built-in search capabilities._
+_Members can use [Copilot Memory](https://docs.github.com/copilot/concepts/agents/copilot-memory) to store facts about repositories and personal preferences about how they want to interact with Copilot. These are available to agents in future sessions. Users can turn this off at any time, regardless of enterprise or organization policy. Learn more in the [Privacy Statement](https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement). This preview is governed by [GitHub's pre-release terms](https://docs.github.com/en/site-policy/github-terms/github-pre-release-license-terms)._
 
 Status: Disabled everywhere
 
-### Copilot-generated commit messages
+#### Semantic indexing for Non-GitHub Repositories (Preview)
 
-_If enabled, Copilot will [suggest commit messages](https://docs.github.com/en/copilot/responsible-use/copilot-commit-message-generation) for changes made on GitHub.com._
+_If enabled, members of this business will have access to upload non-GitHub repositories for semantic indexing._
 
 Status: Disabled everywhere
+
+#### Bring Your Own Language Model Key in Select IDEs
+
+_Enable the use of your own third-party language model API keys for VS Code and JetBrains. [Learn more](https://code.visualstudio.com/docs/copilot/customization/language-models#_bring-your-own-language-model-key)._
+
+Status: Enabled everywhere
 
 ### Copilot Spaces
 
 _If enabled, organization members can view and create [Copilot Spaces](https://docs.github.com/en/copilot/how-tos/provide-context/use-copilot-spaces). When disabled, users cannot view or create any Copilot Spaces._
 
-Status: Let organizations decide
+Status: Disabled everywhere
 
 ### Copilot Spaces Individual Access
 
@@ -134,30 +226,6 @@ Status: Disabled everywhere
 _If enabled, organization members can share individually owned Copilot Spaces that do not contain enterprise data. When disabled, users cannot share individual spaces._
 
 Status: Disabled everywhere
-
-### Copilot Memory (Preview)
-
-_Members can use [Copilot Memory](https://docs.github.com/copilot/concepts/agents/copilot-memory) to store facts about repositories and personal preferences about how they want to interact with Copilot. These are available to agents in future sessions. Users can turn this off at any time, regardless of enterprise or organization policy. Learn more in the [Privacy Statement](https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement). This preview is governed by [GitHub's pre-release terms](https://docs.github.com/en/site-policy/github-terms/github-pre-release-license-terms)._
-
-Status: Disabled everywhere
-
-### Semantic indexing for Non-GitHub Repositories (Preview)
-
-_If enabled, members of this business will have access to upload non-GitHub repositories for semantic indexing._
-
-Status: Disabled everywhere
-
-### Enable custom models (Preview)
-
-_Enable to allow your organizations to configure and use custom models via API key. When using custom models, GitHub is allowed to share your data with third-party services, including Azure and OpenAI, using your provided key._
-
-Status: Disabled
-
-### Bring Your Own Language Model Key in Select IDEs
-
-_Enable the use of your own third-party language model API keys for VS Code and JetBrains. [Learn more](https://code.visualstudio.com/docs/copilot/customization/language-models#_bring-your-own-language-model-key)._
-
-Status: Enabled everywhere
 
 ## Billing
 
@@ -173,57 +241,13 @@ Status: Disabled
 
 _If enabled, enterprise and organization administrators can query the [Copilot metrics API](https://docs.github.com/en/rest/copilot/copilot-metrics?apiVersion=2022-11-28) for insights into Copilot usage._
 
-Status: Disabled everywhere
+Status: Enabled everywhere
 
 ### Copilot usage metrics
 
 _If enabled, enterprise admins, billing managers, and authorized users can view Copilot usage metrics in a [dashboard](https://docs.github.com/en/copilot/concepts/copilot-metrics) and access the [Copilot Usage API](https://docs.github.com/en/enterprise-cloud@latest/rest/copilot/copilot-metrics?apiVersion=2022-11-28#get-copilot-enterprise-usage-metrics-for-a-specific-day)._
 
 Status: Enabled everywhere
-
-## Copilot clients
-
-### Copilot in GitHub.com
-
-_Organizations can use Copilot Chat in GitHub.com and knowledge base search._
-
-Status: Let organizations decide
-
-### Copilot CLI
-
-_Organizations can use GitHub Copilot for assistance in terminal._
-
-Status: Enabled everywhere
-
-### Store local sessions in the Cloud
-
-_Control how CLI and VS Code sessions are stored and accessed from the cloud._
-
-Status: Select a policy (effectively disabled)
-
-### Copilot in GitHub Desktop
-
-_Organizations can use GitHub Copilot for assistance in GitHub Desktop._
-
-Status: Disabled everywhere
-
-### Copilot Chat in GitHub Mobile
-
-_If enabled, organizations can use GitHub Copilot Chat in GitHub Mobile personalized to a codebase._
-
-Status: Disabled everywhere
-
-### Copilot Agent Mode in IDE Chat
-
-_If enabled, organizations may use Agent Mode within their IDE to interact with Copilot for the purpose of reasoning through requests, planning tasks, and making changes to the codebase. [Learn more](https://docs.github.com/en/copilot/how-tos/chat-with-copilot/chat-in-ide?tool=visualstudio#using-agent-mode-1)._
-
-Status: Enabled everywhere
-
-### Agent apps (Preview)
-
-_If enabled, enterprise admins can turn on agentic features provided by GitHub Apps._
-
-Status: Disabled everywhere
 
 ## MCP
 
@@ -235,11 +259,21 @@ Status: Enabled everywhere
 
 ## Agents
 
+### Configuration source
+
+_Select the organization that provides enterprise-managed settings, plugins, and custom agents._
+
+Source: ministryofjustice
+
 ### Copilot cloud agent
 
 _If enabled, users assigned a Copilot license from this enterprise will have access to Copilot cloud agent in repositories where it is enabled. This feature may use models which are not enabled on your "Models" settings page. [Learn more](https://gh.io/assigncopilot)._
 
 Status: Enabled for selected organizations
+
+Enabled organisations:
+
+- ministryofjustice
 
 ### Block Copilot cloud agent in all repositories owned by Ministry of Justice (UK)
 
@@ -252,6 +286,19 @@ Status: Off
 _If enabled, members who are licensed through organizations within this enterprise can use [Copilot code review](https://docs.github.com/en/enterprise-cloud@latest/copilot/using-github-copilot/code-review/using-copilot-code-review) and [Copilot for pull requests](https://docs.github.com/enterprise-cloud@latest/copilot/github-copilot-enterprise/copilot-pull-request-summaries/creating-a-pull-request-summary-with-github-copilot) in any repository they belong to._
 
 Status: Let organizations decide
+
+### Default review effort level
+
+_The depth of analysis Copilot uses for repositories that have not selected their own review effort level.
+Applies to repositories owned by organizations in this enterprise. Organizations and repositories can override this default._
+
+Level: Balanced
+
+### Allow Copilot to approve pull requests
+
+_Choose which organizations can allow Copilot to approve pull requests._
+
+Status: Disabled everywhere
 
 ### Block Copilot code review in all enterprise repositories
 
@@ -283,3 +330,7 @@ Status: Off
 ### 30/09/2026
 
 - Enable OpenAI GPT-6.1 Sol
+
+### 07/10/2026
+
+- Update ADR with current enterprise AI control settings and models
