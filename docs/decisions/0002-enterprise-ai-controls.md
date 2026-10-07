@@ -61,6 +61,7 @@ Status: Disabled everywhere
 | Anthropic Claude Fable 5                                                            | Disabled |
 | Anthropic Claude Fable 5.1                                                          | Disabled |
 | Anthropic Claude Haiku 4.5                                                          | Enabled  |
+| Anthropic Claude Haiku 5.5                                                          | Enabled  |
 | Anthropic Claude Opus 4.8                                                           | Enabled  |
 | Anthropic Claude Opus 4.8 (fast mode) (Preview)                                     | Disabled |
 | Anthropic Claude Opus 5                                                             | Enabled  |
