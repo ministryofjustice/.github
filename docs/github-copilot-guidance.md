@@ -43,7 +43,7 @@ Once you have been added to the appropriate GitHub Copilot Users Team, you can s
 
 ## What is included in the Licence
 
-GitHub Copilot users will be assigned [Copilot Enterprise](https://docs.github.com/en/copilot/get-started/plans#comparing-copilot-plans) seats. This plan was chosen to allow users greater access to premium models, such as those created by Anthropic. Each user has a default budget of 20,000 AI Credits requests to a premium model per billing month. Users can monitor their usage using our [Copilot Usage dashboard](https://check-my-copilot-ai-credits-usage.service.justice.gov.uk/), and may request an increased budget using our [issue form](https://github.com/ministryofjustice/octo-access/issues/new?template=github-copilot-budget-increase-request.yml).
+GitHub Copilot users will be assigned [Copilot Enterprise](https://docs.github.com/en/copilot/get-started/plans#comparing-copilot-plans) seats. This plan was chosen to allow users greater access to premium models, such as those created by Anthropic. Each user has a default budget of 20,000 AI Credits per billing month for premium model usage. Users can monitor their usage using our [Copilot Usage dashboard](https://check-my-copilot-ai-credits-usage.service.justice.gov.uk/), and may request an increased budget using our [issue form](https://github.com/ministryofjustice/octo-access/issues/new?template=github-copilot-budget-increase-request.yml).
 
 ---
 
@@ -60,7 +60,7 @@ If you wish to request changes to these settings, please contact the [project re
 
 ## Permitted AI Tools in MOJ
 
-Only AI tools under an MOJ enterprise licence are permitted, there are documented on the [Approved AI Tools](https://intranet.justice.gov.uk/guidance/it-services/ai-in-moj/approved-ai-tools/) guidance page.
+AI tools must be covered by an MOJ enterprise licence, except that managed supplier and vendor staff may use GitHub Copilot Enterprise licences procured directly by their organisation, as described under [Eligibility for a Licence](#eligibility-for-a-licence). Other AI tools must be listed in the [Approved AI Tools](https://intranet.justice.gov.uk/guidance/it-services/ai-in-moj/approved-ai-tools/) guidance.
 
 Personal or free AI tools are **not allowed**.
 
