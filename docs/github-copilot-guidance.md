@@ -45,7 +45,7 @@ Once you have been added to the appropriate GitHub Copilot Users Team, you can s
 
 ## What is included in the Licence
 
-GitHub Copilot users will be assigned [Copilot Enterprise](https://docs.github.com/en/copilot/get-started/plans#comparing-copilot-plans) seats. This plan was chosen to allow users greater access to premium models, such as those created by Anthropic. Each user has a default budget of 20,000 AI Credits per billing month for premium model usage. Users can monitor their usage using our [Copilot Usage dashboard](https://check-my-copilot-ai-credits-usage.service.justice.gov.uk/), and may request an increased budget using our [issue form](https://github.com/ministryofjustice/octo-access/issues/new?template=github-copilot-budget-increase-request.yml).
+Users assigned MOJ-managed [Copilot Enterprise](https://docs.github.com/en/copilot/get-started/plans#comparing-copilot-plans) seats have a default budget of 20,000 AI Credits per billing month for premium model usage. They can monitor their usage using our [Copilot Usage dashboard](https://check-my-copilot-ai-credits-usage.service.justice.gov.uk/) and request an increased budget using our [issue form](https://github.com/ministryofjustice/octo-access/issues/new?template=github-copilot-budget-increase-request.yml). Supplier and vendor staff using licences procured by their organisation should contact that organisation about budget and usage arrangements.
 
 ---
 
