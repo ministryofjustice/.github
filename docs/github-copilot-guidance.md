@@ -12,7 +12,7 @@ Licences are currently available only to permanent civil servants and contingent
 
 Managed supplier and vendor staff may also consume GitHub Copilot Enterprise if procured directly by their organisation, and in accordance to MOJ's [GitHub Copilot Enterprise AI Controls](../docs/decisions/0002-enterprise-ai-controls.md).
 
-If you are a managed supplier or vendor deploying GitHub Copilot Enterprise, please reach out to the [Developer Experience team](https://moj.enterprise.slack.com/archives/C0AJBK3P5A8).
+If you are a managed supplier or vendor deploying GitHub Copilot Enterprise, please reach out to the [Developer Experience team](https://moj.enterprise.slack.com/archives/C0AJBK3P5A8) and let us know you're doing so.
 
 ---
 
