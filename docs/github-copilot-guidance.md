@@ -4,7 +4,7 @@ This document contains the policy for consuming GitHub Copilot Enterprise at the
 
 ## Eligibility for a Licence
 
-Licences are currently available only to permanent civil servants and contingent workers in the following professions:
+Licences are currently available only to permanent civil servants and contingent workers (including bench model contractors) in the following professions:
 
 - Architecture
 - Engineering
