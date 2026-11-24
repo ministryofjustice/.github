@@ -2,7 +2,7 @@
 
 Date: 2026-06-18
 
-Last Updated: 2026-10-07
+Last Updated: 2026-11-24
 
 ## Status
 
@@ -60,30 +60,37 @@ Status: Disabled everywhere
 | ----------------------------------------------------------------------------------- | -------- |
 | Anthropic Claude Fable 5                                                            | Disabled |
 | Anthropic Claude Fable 5.1                                                          | Disabled |
+| Anthropic Claude Fable 5.2                                                          | Disabled |
 | Anthropic Claude Haiku 4.5                                                          | Enabled  |
 | Anthropic Claude Haiku 5.5                                                          | Enabled  |
-| Anthropic Claude Opus 4.8                                                           | Enabled  |
 | Anthropic Claude Opus 4.8 (fast mode) (Preview)                                     | Disabled |
 | Anthropic Claude Opus 5                                                             | Enabled  |
 | Anthropic Claude Opus 5.5                                                           | Enabled  |
 | Anthropic Claude Sonnet 5                                                           | Enabled  |
 | Anthropic Claude Sonnet 5.5                                                         | Enabled  |
-| Google Gemini 3.7 Flash                                                             | Enabled  |
 | Google Gemini 3.8 Flash                                                             | Enabled  |
-| Microsoft MAI-Code-1.1-Flash                                                        | Enabled  |
+| Google Gemini 4 Argon                                                               | Enabled  |
+| Google Gemini 4 Carbon                                                              | Enabled  |
+| Google Gemini 4 Hydrogen                                                            | Enabled  |
+| Google Gemini 4 Neon                                                                | Enabled  |
+| Microsoft MAI Code 1.1 Flash                                                        | Enabled  |
+| Microsoft MAI Code 2                                                                | Enabled  |
+| Microsoft MAI Code 2 Flash                                                          | Enabled  |
 | Moonshot AI Kimi K3                                                                 | Disabled |
-| OpenAI GPT-5 Mini                                                                   | Enabled  |
-| OpenAI GPT-5.3 Codex (GitHub Copilot uses GPT-5.3 Codex as the base fallback model) | Enabled  |
-| OpenAI GPT-5.4                                                                      | Enabled  |
-| OpenAI GPT-5.4 Mini                                                                 | Enabled  |
-| OpenAI GPT-5.5                                                                      | Enabled  |
-| OpenAI GPT-5.6 Luna                                                                 | Enabled  |
-| OpenAI GPT-5.6 Sol                                                                  | Enabled  |
-| OpenAI GPT-5.6 Terra                                                                | Enabled  |
-| OpenAI GPT-6 Astra                                                                  | Enabled  |
-| OpenAI GPT-6 Luna                                                                   | Enabled  |
-| OpenAI GPT-6 Sol                                                                    | Enabled  |
-| OpenAI GPT-6.1 Sol                                                                  | Enabled  |
+| OpenAI GPT 5 Mini                                                                   | Enabled  |
+| OpenAI GPT 5.3 Codex (GitHub Copilot uses GPT-5.3 Codex as the base fallback model) | Enabled  |
+| OpenAI GPT 5.4                                                                      | Enabled  |
+| OpenAI GPT 5.4 Mini                                                                 | Enabled  |
+| OpenAI GPT 5.5                                                                      | Enabled  |
+| OpenAI GPT 5.6 Luna                                                                 | Enabled  |
+| OpenAI GPT 5.6 Sol                                                                  | Enabled  |
+| OpenAI GPT 6 Astra                                                                  | Enabled  |
+| OpenAI GPT 6 Luna                                                                   | Enabled  |
+| OpenAI GPT 6 Sol                                                                    | Enabled  |
+| OpenAI GPT 6.1 Sol                                                                  | Enabled  |
+| OpenAI GPT 6.1 Terra                                                                | Enabled  |
+| OpenAI GPT 6.2 Astra                                                                | Enabled  |
+| OpenAI GPT 6.2 Sol                                                                  | Enabled  |
 | xAI Grok 4.5                                                                        | Disabled |
 | xAI Grok 4.6                                                                        | Disabled |
 | xAI Grok 4.7                                                                        | Disabled |
@@ -146,7 +153,6 @@ _If enabled, CLI and VSCode sessions are stored in the cloud._
 
 Status: View from cloud
 
-
 #### Copilot Chat in GitHub Mobile
 
 _If enabled, organizations can use GitHub Copilot Chat in GitHub Mobile personalized to a codebase._
@@ -172,7 +178,6 @@ Status: Disabled everywhere
 _Copilot can answer questions about new trends and give improved answers, via Bing. See [Microsoft Privacy Statement](https://privacy.microsoft.com/en-us/privacystatement)._
 
 Status: Enabled everywhere
-
 
 #### Copilot can search the web using model native search (Preview)
 
@@ -335,3 +340,7 @@ Status: Off
 ### 07/10/2026
 
 - Update ADR with current enterprise AI control settings and models
+
+### 24/11/2026
+
+- Update with current models
